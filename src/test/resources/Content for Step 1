@@ -1,0 +1,10 @@
+// In Datei Erfassen_von_Arbeitszeiten_im System.feature
+
+# language: de
+
+Funktionalität: Erfassen von Arbeitszeiten im System
+
+Szenario: Berechnung der gesetzlich vorgeschriebenen Pausenzeiten
+Angenommen Ein Mitarbeiter ist im System erfasst und einem Projekt zugeordnet
+Wenn der Mitarbeiter die Kommenzeit "08:00" und Gehenzeit "16:00" erfasst
+Dann berechnet das System korrekt die gesetzlich vorgeschriebene Ruhepause von 30 Minuten
